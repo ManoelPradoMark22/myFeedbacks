@@ -7,7 +7,7 @@ export const feedbacks = [
   {
     date: "12/08/2024",
     name: "Stefan Swenson",
-    feedback: "I have had the great fortune to work alongside Manoel building a very complex workload management application. Manoel's work always demonstrates exceptional attention to detail, ensuring every aspect of the user interface is thoughtfully crafted and user-friendly. He consistently delivers work under tight deadlines without compromising quality, showcasing his remarkable efficiency and reliability. Manoel is up-to-date with industry best practices, and regularly makes invaluable suggestions to the design team to improve functionality of the product, ensuring our designs are accessible and cutting-edge. His positive attitude and collaborative spirit has elevated our team's performance and the overall quality of the product immeasurably. Thank you, Manoel, for your hard work, dedication, and high standard of excellence.",
+    feedback: "I have had the great fortune to work alongside Manoel building a very complex WOKAPPLICATIONX. Manoel's work always demonstrates exceptional attention to detail, ensuring every aspect of the user interface is thoughtfully crafted and user-friendly. He consistently delivers work under tight deadlines without compromising quality, showcasing his remarkable efficiency and reliability. Manoel is up-to-date with industry best practices, and regularly makes invaluable suggestions to the design team to improve functionality of the product, ensuring our designs are accessible and cutting-edge. His positive attitude and collaborative spirit has elevated our team's performance and the overall quality of the product immeasurably. Thank you, Manoel, for your hard work, dedication, and high standard of excellence.",
   },
   {
     date: "07/08/2024",
@@ -32,7 +32,7 @@ export const feedbacks = [
   {
     date: "30/07/2024",
     name: "Fendy G. Santoso",
-    feedback: "Manoel has consistently demonstrated exceptional performance as a front-end developer this past year. His ability to produce high-quality code while maintaining a keen eye for detail has been invaluable to the team. Their contributions have directly impacted the success of workload management application. Moreover, Manoel has proven to be an effective communicator, proactively seeking clarification on requirements and effectively collaborating with team members to ensure project success. His proactive approach to problem-solving and their positive attitude have been exemplary. Manoel’s strong technical skills combined with their excellent communication abilities make them a valuable asset to the team. I am confident in their ability to take on increasingly complex challenges and contribute significantly in future projects.",
+    feedback: "Manoel has consistently demonstrated exceptional performance as a front-end developer this past year. His ability to produce high-quality code while maintaining a keen eye for detail has been invaluable to the team. Their contributions have directly impacted the success of WOKAPPLICATIONX. Moreover, Manoel has proven to be an effective communicator, proactively seeking clarification on requirements and effectively collaborating with team members to ensure project success. His proactive approach to problem-solving and their positive attitude have been exemplary. Manoel’s strong technical skills combined with their excellent communication abilities make them a valuable asset to the team. I am confident in their ability to take on increasingly complex challenges and contribute significantly in future projects.",
   },
   {
     date: "29/07/2024",
@@ -42,7 +42,7 @@ export const feedbacks = [
   {
     date: "29/07/2024",
     name: "Geena Glen",
-    feedback: "Manoel is a Front End dev on the Workload Management Application with a very strong technical skillset. He always delivers high quality work, is thorough in understanding requirements and makes recommendations to the design/product team on features he is owning. Manoel is already performing at the next level and has been a huge asset to the team. Thank you, Manoel, for all of your hard work and contributions to the team!",
+    feedback: "Manoel is a Front End dev on the WOKAPPLICATIONX with a very strong technical skillset. He always delivers high quality work, is thorough in understanding requirements and makes recommendations to the design/product team on features he is owning. Manoel is already performing at the next level and has been a huge asset to the team. Thank you, Manoel, for all of your hard work and contributions to the team!",
   },
   {
     date: "25/07/2024",
@@ -230,5 +230,5 @@ feedbacks.map(obj => {
   sensitiveNamesArr = [...sensitiveNamesArr, ...firstName, ...lastName]
 })
 
-export const sensitiveWords = ['EMPRESAX', 'EMPRESERXER', 'EMPX', 'CLIENTXXD', 'EXXXX', 'OTHERCL'];
+export const sensitiveWords = ['EMPRESAX', 'EMPRESERXER', 'EMPX', 'CLIENTXXD', 'EXXXX', 'OTHERCL', 'WOKAPPLICATIONX'];
 export const sensitiveNames = [...sensitiveNamesArr];
