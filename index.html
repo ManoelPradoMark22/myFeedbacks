@@ -48,7 +48,6 @@
 
         const feedbackContainer = document.querySelector('.feedbacks-container');
         const collapsibleHeader = document.querySelector('.collapsible-header');
-        const collapsibleContent = document.querySelector('.collapsible-content');
         const collapsibleToggle = document.querySelector('.collapsible-toggle');
 
         collapsibleHeader.addEventListener('click', () => {
@@ -60,6 +59,29 @@
             } else {
                 collapsibleToggle.textContent = '+';
             }
+        });
+
+        document.querySelectorAll('.collapsible-header').forEach(header => {
+            header.addEventListener('click', () => {
+                const collapsibleContent = header.parentElement.querySelector('.collapsible-content');
+
+                collapsibleContent.classList.toggle('active');
+                collapsibleToggle.classList.toggle('active');
+
+                if (collapsibleContent.classList.contains('active')) {
+                    collapsibleToggle.textContent = '-';
+                } else {
+                    collapsibleToggle.textContent = '+';
+                }
+
+                if (collapsibleContent.style.height) {
+                    collapsibleContent.style.height = null;
+                    collapsibleContent.style.opacity = 0;
+                } else {
+                    collapsibleContent.style.height = collapsibleContent.scrollHeight + 'px';
+                    collapsibleContent.style.opacity = 1;
+                }
+            });
         });
 
         const replaceSensitiveWord = (word) => {

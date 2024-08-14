@@ -75,36 +75,6 @@ export const feedbacks = [
     feedback: "From Recognize || Core Values || Welcome to EMPRESAX || Hi,   You recently onboarded the CLIENTXXD account. Welcome! We are excited that you are part of our team.   On behalf of the account leadership, I assure you of our support to make your association with this account a place where you learn and collaborate as a valuable member. Please do not hesitate to reach me or your immediate leadership for any questions.    All the best! || 05-Feb-24",
   },
   {
-    date: "25/12/2023",
-    name: "Juliana Santana",
-    feedback: "From Recognize || Community amp; Cultural Celebrations || Celebrating international days together || Neste clima festivo, quero reconhecer cada um de vocês por contribuir com seu brilhantismo à nossa jornada tecnologógica ao longo do ano. Vocês são a engrenagem que mantém nossa inovação pulsante!   As festas chegaram, e é hora de recarregar as energias ao lado daqueles que amamos. Que este Natal seja repleto de momentos especiais e que o Ano Novo traga desafios instigantes que nos impulsionem ainda mais.   Lembro que, assim como os códigos que escrevemos, a colaboração e o espírito de equipe são essenciais. Juntos, enfrentaremos qualquer desafio que o futuro nos reservar.   Agradeço por fazerem parte desta incrível jornada tecnológica. Tenham um Natal espetacular e um 2024 cheio de realizações!   Com gratidão,  Ju Santana HR Partner || 22-Dec-23",
-  },
-  {
-    date: "15/12/2023",
-    name: "Rachel S. Garcia",
-    feedback: "From Recognize || Custom Program || Team Awards || Em um ano repleto de mudanças e desafios, nossa capacidade de aprender diante da imprevisibilidade foi crucial. Encontramos maneiras inovadoras de avançar, assumindo um papel ativo na condução do caminho da EMPRESAX até aqui. A maior certeza que tenho é que dedicamos o nosso melhor e, por todo esse apoio e dedicação, expresso minha mais sincera gratidão.   Um novo ano está prestes a começar, trazendo consigo a possibilidade de novos desafios, aprendizados e conexões. Aproveite o final de 2023 para descansar e celebrar com as pessoas amadas. Recarregue as energias e reafirme seu propósito.   Encontro vocês em 2024, com muita vontade de fazer ainda melhor e na expectativa de vivenciar novos momentos significativos juntos.   Boas festas!  Rachel Garcia || 14-Dec-23",
-  },
-  {
-    date: "14/12/2023",
-    name: "Marcio Brandao Junior",
-    feedback: "Priority Reviewer Reflection || Priority Title: AWS Developer Associate || Ok",
-  },
-  {
-    date: "14/12/2023",
-    name: "Marcio Brandao Junior",
-    feedback: "Priority Reviewer Reflection || Priority Title: AWS Solutions Architect Associate || Ok",
-  },
-  {
-    date: "14/12/2023",
-    name: "Marcio Brandao Junior",
-    feedback: "Priority Reviewer Reflection || Priority Title: Finalizar o challenge: Gen AI - Prompt Engineering Skill Up Challenge || Ok",
-  },
-  {
-    date: "14/12/2023",
-    name: "Magdieline Sander",
-    feedback: "Great work, Manoel! Your willingness to help and teach has made a significant impact on the governance of AABG. Your dedication to your work is evident in the knowledge and skills you have demonstrated in programming. I encourage you not to give up on this area as it is an essential skill that can benefit both you and the organization in the future. Keep up the excellent work, and I look forward to seeing your continued growth and contributions to our team. (Submitted via HRBuddy)",
-  },
-  {
     date: "14/12/2023",
     name: "Magdieline Sander",
     feedback: "Great work, Manoel! Your willingness to help and teach has made a significant impact on the governance of AABG. Your dedication to your work is evident in the knowledge and skills you have demonstrated in programming. I encourage you not to give up on this area as it is an essential skill that can benefit both you and the organization in the future. Keep up the excellent work, and I look forward to seeing your continued growth and contributions to our team. (Submitted via HRBuddy)",
