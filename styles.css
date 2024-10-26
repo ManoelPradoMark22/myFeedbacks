@@ -214,6 +214,10 @@ body {
   user-select: none;
 }
 
+.dropdown-content.show {
+  display: block; /* Exibe quando a classe 'show' está presente */
+}
+
 .dropdown:hover .dropdown-content {
   display: block; /* Mostra o conteúdo do dropdown ao passar o mouse */
 }

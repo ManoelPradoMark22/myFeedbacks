@@ -205,6 +205,9 @@
             });
         };
 
+        const dropdown = document.querySelector('.dropdown');
+        const dropdownContent = document.querySelector('.dropdown-content');
+
         // Event listener para o seletor de idiomas
         dropdownItems.forEach(item => {
         item.addEventListener('click', () => {
@@ -227,6 +230,18 @@
                 displayFeedbacks();
                 updateDropdownState(); // Atualiza o estado do dropdown
             });
+        });
+
+        // Adiciona o evento de clique no dropdown
+        dropdown.addEventListener('click', () => {
+            dropdownContent.classList.toggle('show'); // Alterna a classe para mostrar/ocultar
+        });
+
+        // Fecha o dropdown se o usuário clicar fora dele
+        window.addEventListener('click', (event) => {
+            if (!dropdown.contains(event.target)) {
+                dropdownContent.classList.remove('show');
+            }
         });
 
     </script>
