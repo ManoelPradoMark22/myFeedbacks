@@ -249,8 +249,7 @@
             const date = new Date(dateString);
 
             // Formatação da data em português
-            const optionsPT = { day: '2-digit', month: 'short', year: 'numeric' };
-            const formattedPT = date.toLocaleDateString('pt-BR', optionsPT).replace(/ de /g, ' ').trim(); // e.g. "13 ago. 2024"
+            const formattedPT = date.toLocaleDateString('pt-BR'); // e.g. "13/08/2024"
 
             // Formatação da data em inglês
             const optionsEN = { month: 'short', day: '2-digit', year: 'numeric' };
