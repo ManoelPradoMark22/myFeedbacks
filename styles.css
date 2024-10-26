@@ -185,3 +185,45 @@ body {
   border-radius: 4px;
   padding: 0 0.2rem;
 }
+
+.language-selector {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.language-icon {
+  width: 30px; /* Tamanho do ícone */
+  height: 30px;
+  cursor: pointer; /* Cursor de ponteiro para indicar que é clicável */
+}
+
+.dropdown-content {
+  display: none; /* Inicialmente escondido */
+  position: absolute;
+  right: 0;
+  background-color: #2c2c2e; /* Cor de fundo do dropdown */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  user-select: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block; /* Mostra o conteúdo do dropdown ao passar o mouse */
+}
+
+.dropdown-item {
+  color: #f5f5f5; /* Cor do texto */
+  padding: 8px 12px; /* Espaçamento interno */
+  cursor: pointer; /* Cursor de ponteiro */
+}
+
+.dropdown-item:hover {
+  background-color: #3a3a3c; /* Cor ao passar o mouse */
+}

@@ -7,6 +7,18 @@
     <title>Manoel Prado - Feedbacks</title>
 </head>
 <body>
+    <div class="language-selector">
+        <div class="dropdown">
+            <img src="./assets/flag-us-br.svg" alt="Language Icon" class="language-icon" id="language-icon">
+            <div class="dropdown-content">
+                <div class="dropdown-item" data-language="original">Original</div>
+                <div class="dropdown-item" data-language="en">English</div>
+                <div class="dropdown-item" data-language="pt-br">Portuguese</div>
+            </div>
+        </div>
+    </div>
+    
+
     <div class="profile">
         <img src="https://avatars.githubusercontent.com/ManoelPradoMark22" alt="Manoel Prado">
         <h1>Manoel Prado</h1>
@@ -49,6 +61,26 @@
         const feedbackContainer = document.querySelector('.feedbacks-container');
         const collapsibleHeader = document.querySelector('.collapsible-header');
         const collapsibleToggle = document.querySelector('.collapsible-toggle');
+
+        let currentLanguage = 'original';
+
+        // Função para obter o texto do feedback com base na linguagem selecionada
+        const getFeedbackText = (feedback) => {
+            // Se a linguagem atual for 'original', acessamos o valor diretamente
+            if (currentLanguage === 'original') {
+                return feedback.feedback.original.value;
+            }
+            
+            // Para as outras linguagens, procuramos a tradução correta
+            if (currentLanguage === 'en' && feedback.feedback.translation.language === 'en') {
+                return feedback.feedback.translation.value;
+            } else if (currentLanguage === 'pt-br' && feedback.feedback.translation.language === 'pt-br') {
+                return feedback.feedback.translation.value;
+            }
+            
+            // Se a linguagem não for encontrada, retornamos o valor original por padrão
+            return feedback.feedback.original.value;
+        };
 
         collapsibleHeader.addEventListener('click', () => {
             collapsibleContent.classList.toggle('active');
@@ -110,41 +142,93 @@
             return `${firstName[0]} <span class="blurred-word">${replaceSensitiveWord(firstName.slice(1))}</span> ${middleNames} ${lastName[0]} <span class="blurred-word">${replaceSensitiveWord(lastName.slice(1))}</span>`;
         };
 
-        feedbacks
-            .sort((a, b) => new Date(b.date.split('/').reverse().join('/')) - new Date(a.date.split('/').reverse().join('/')))
-            .forEach(feedback => {
-                const feedbackCard = document.createElement('div');
-                feedbackCard.className = 'feedback-card';
+        // Função para exibir feedbacks de acordo com o idioma
+        const displayFeedbacks = () => {
+            feedbackContainer.innerHTML = ''; // Limpa o conteúdo atual
 
-                const nameElement = document.createElement('h3');
-                nameElement.innerHTML = obscureName(feedback.name);
-                feedbackCard.appendChild(nameElement);
+            feedbacks
+                .sort((a, b) => new Date(b.date.split('/').reverse().join('/')) - new Date(a.date.split('/').reverse().join('/')))
+                .forEach(feedback => {
+                    const feedbackCard = document.createElement('div');
+                    feedbackCard.className = 'feedback-card';
 
-                const feedbackText = feedback.feedback.split(' ').map(word => {
-                    const sanitizedWord = word.toUpperCase().replace(/[.,!()@]/g, '');
-                    const sensitiveWordFound = sensitiveWords.some(sensitiveWord =>
-                        sanitizedWord.includes(sensitiveWord)
-                    );
-                    const exactlyWordFound = sensitiveNames.includes(word);
+                    const nameElement = document.createElement('h3');
+                    nameElement.innerHTML = obscureName(feedback.name);
+                    feedbackCard.appendChild(nameElement);
 
-                    if (sensitiveWordFound || exactlyWordFound) {
-                        const replacement = replaceSensitiveWord(word);
-                        return `<span class="blurred-word">${replacement}</span>`;
-                    }
-                    return word;
-                }).join(' ');
+                    // Obtemos o texto do feedback baseado na linguagem atual
+                    const feedbackText = getFeedbackText(feedback);
 
-                const feedbackElement = document.createElement('p');
-                feedbackElement.innerHTML = feedbackText;
-                feedbackCard.appendChild(feedbackElement);
+                    const processedFeedbackText = feedbackText.split(' ').map(word => {
+                        const sanitizedWord = word.toUpperCase().replace(/[.,!()@]/g, '');
+                        const sensitiveWordFound = sensitiveWords.some(sensitiveWord =>
+                            sanitizedWord.includes(sensitiveWord)
+                        );
+                        const exactlyWordFound = sensitiveNames.includes(word);
 
-                const dateElement = document.createElement('p');
-                dateElement.className = 'date';
-                dateElement.textContent = feedback.date;
-                feedbackCard.appendChild(dateElement);
+                        if (sensitiveWordFound || exactlyWordFound) {
+                            const replacement = replaceSensitiveWord(word);
+                            return `<span class="blurred-word">${replacement}</span>`;
+                        }
+                        return word;
+                    }).join(' ');
 
-                feedbackContainer.appendChild(feedbackCard);
+                    const feedbackElement = document.createElement('p');
+                    feedbackElement.innerHTML = processedFeedbackText;
+                    feedbackCard.appendChild(feedbackElement);
+
+                    const dateElement = document.createElement('p');
+                    dateElement.className = 'date';
+                    dateElement.textContent = feedback.date;
+                    feedbackCard.appendChild(dateElement);
+
+                    feedbackContainer.appendChild(feedbackCard);
+                });
+        };
+
+        // Renderiza feedbacks ao carregar a página
+        displayFeedbacks();
+
+        const languageIcon = document.getElementById('language-icon');
+        const dropdownItems = document.querySelectorAll('.dropdown-item');
+
+        // Função para atualizar o estado do dropdown
+        const updateDropdownState = () => {
+            dropdownItems.forEach(item => {
+                if (item.getAttribute('data-language') === currentLanguage) {
+                    item.classList.add('disabled'); // Adiciona classe de desabilitado
+                    item.style.pointerEvents = 'none'; // Impede eventos de clique
+                } else {
+                    item.classList.remove('disabled'); // Remove a classe de desabilitado
+                    item.style.pointerEvents = 'auto'; // Habilita eventos de clique
+                }
             });
+        };
+
+        // Event listener para o seletor de idiomas
+        dropdownItems.forEach(item => {
+        item.addEventListener('click', () => {
+                currentLanguage = item.getAttribute('data-language');
+                
+                // Atualiza o ícone com base na seleção
+                switch (currentLanguage) {
+                    case 'original':
+                        languageIcon.src = './assets/flag-us-br.svg';
+                        break;
+                    case 'en':
+                        languageIcon.src = './assets/flag-us.svg';
+                        break;
+                    case 'pt-br':
+                        languageIcon.src = './assets/flag-br.svg';
+                        break;
+                }
+
+                // Atualiza a exibição dos feedbacks
+                displayFeedbacks();
+                updateDropdownState(); // Atualiza o estado do dropdown
+            });
+        });
+
     </script>
 </body>
 </html>
