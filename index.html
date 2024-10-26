@@ -147,7 +147,7 @@
             feedbackContainer.innerHTML = ''; // Limpa o conteúdo atual
 
             feedbacks
-                .sort((a, b) => new Date(b.date.split('/').reverse().join('/')) - new Date(a.date.split('/').reverse().join('/')))
+                .sort((a, b) => new Date(b.date) - new Date(a.date))
                 .forEach(feedback => {
                     const feedbackCard = document.createElement('div');
                     feedbackCard.className = 'feedback-card';
@@ -179,7 +179,7 @@
 
                     const dateElement = document.createElement('p');
                     dateElement.className = 'date';
-                    dateElement.textContent = feedback.date;
+                    dateElement.textContent = formatDate(feedback.date, currentLanguage);
                     feedbackCard.appendChild(dateElement);
 
                     feedbackContainer.appendChild(feedbackCard);
@@ -243,6 +243,31 @@
                 dropdownContent.classList.remove('show');
             }
         });
+
+        function formatDate(dateString, type) {
+            // Criar um objeto Date a partir da string de data
+            const date = new Date(dateString);
+
+            // Formatação da data em português
+            const optionsPT = { day: '2-digit', month: 'short', year: 'numeric' };
+            const formattedPT = date.toLocaleDateString('pt-BR', optionsPT).replace(/ de /g, ' ').trim(); // e.g. "13 ago. 2024"
+
+            // Formatação da data em inglês
+            const optionsEN = { month: 'short', day: '2-digit', year: 'numeric' };
+            const formattedEN = date.toLocaleDateString('en-US', optionsEN); // e.g. "Aug 13, 2024"
+
+            // Retornar o formato solicitado
+            if (type === "pt-br") {
+                return formattedPT;
+            } else if (type === "en") {
+                return formattedEN;
+            } else if (type === "original") {
+                return `${formattedPT} (${formattedEN})`;
+            } else {
+                throw new Error('Invalid type. Please use "original", "pt-br", or "en".');
+            }
+        }
+
 
     </script>
 </body>

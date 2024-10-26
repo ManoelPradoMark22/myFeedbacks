@@ -1,6 +1,6 @@
 export const feedbacks = [
   {
-    date: "13/08/2024",	
+    date: '2024/08/13',
     name: "Anna Guercio",
     feedback: {
       original: {
@@ -14,7 +14,7 @@ export const feedbacks = [
     }
   },
   {
-    date: "12/08/2024",
+    date: '2024/08/12',
     name: "Stefan Swenson",
     feedback: {
       original: {
@@ -28,7 +28,7 @@ export const feedbacks = [
     }
   },
   {
-    date: "07/08/2024",
+    date: '2024/08/07',
     name: "Geena Glen",
     feedback: {
       original: {
@@ -42,7 +42,7 @@ export const feedbacks = [
     }
   },
   {
-    date: "01/08/2024",
+    date: '2024/08/01',
     name: "Gustavo Meurer",
     feedback: {
       original: {
@@ -56,7 +56,7 @@ export const feedbacks = [
     }
   },
   {
-    date: "31/07/2024",
+    date: '2024/07/31',
     name: "Elisiany Freire",
     feedback: {
       original: {
@@ -70,7 +70,7 @@ export const feedbacks = [
     }
   },
   {
-    date: "30/07/2024",	
+    date: '2024/07/30',
     name: "Claudia Bitencourt Alves Leite",
     feedback: {
       original: {
@@ -84,7 +84,7 @@ export const feedbacks = [
     }
   },
   {
-    date: "30/07/2024",
+    date: '2024/07/30',
     name: "Fendy G. Santoso",
     feedback: {
       original: {
@@ -98,7 +98,7 @@ export const feedbacks = [
     }
   },
   {
-    date: "29/07/2024",
+    date: '2024/07/29',
     name: "Matheus O. Silva",
     feedback: {
       original: {
@@ -112,7 +112,7 @@ export const feedbacks = [
     }
   },
   {
-    date: "29/07/2024",
+    date: '2024/07/29',
     name: "Geena Glen",
     feedback: {
       original: {
@@ -126,7 +126,7 @@ export const feedbacks = [
     }
   },
   {
-    date: "25/07/2024",
+    date: '2024/07/25',
     name: "Marcio Brandao Junior",
     feedback: {
       original: {
@@ -140,7 +140,7 @@ export const feedbacks = [
     }
   },
   {
-    date: "24/07/2024",
+    date: '2024/07/24',
     name: "Rafael Pereira Roma",
     feedback: {
       original: {
@@ -154,7 +154,7 @@ export const feedbacks = [
     }
   },
   {
-    date: "24/07/2024",
+    date: '2024/07/24',
     name: "Dirlene Preilipper",
     feedback: {
       original: {
@@ -168,7 +168,7 @@ export const feedbacks = [
     }
   },
   {
-    date: "04/07/2024",
+    date: '2024/07/04',
     name: "Marcos Silvello Da Rosa",
     feedback: {
       original: {
@@ -182,7 +182,7 @@ export const feedbacks = [
     }
   },
   {
-    date: "08/04/2024",
+    date: '2024/04/08',
     name: "Claudia Bitencourt Alves Leite",
     feedback: {
       original: {
@@ -196,7 +196,7 @@ export const feedbacks = [
     }
   },
   {
-    date: "06/02/2024",
+    date: '2024/02/06',
     name: "Brent A. Shaffer",
     feedback: {
       original: {
@@ -210,7 +210,7 @@ export const feedbacks = [
     }
   },
   {
-    date: "14/12/2023",
+    date: '2023/12/14',
     name: "Magdieline Sander",
     feedback: {
       original: {
@@ -224,7 +224,7 @@ export const feedbacks = [
     }
   },
   {
-    date: "10/11/2023",
+    date: '2023/11/10',
     name: "Marcio Brandao Junior",
     feedback: {
       original: {
@@ -238,7 +238,7 @@ export const feedbacks = [
     }
   },
   {
-    date: "17/10/2023",
+    date: '2023/10/17',
     name: "Rachel S. Garcia",
     feedback: {
       original: {
@@ -252,7 +252,7 @@ export const feedbacks = [
     }
   },
   {
-    date: "19/09/2023",
+    date: '2023/09/19',
     name: "Joseane Helena De Souza",
     feedback: {
       original: {
@@ -266,7 +266,7 @@ export const feedbacks = [
     }
   },
   {
-    date: "25/08/2023",
+    date: '2023/08/25',
     name: "Adriano Pacheco",
     feedback: {
       original: {
@@ -280,7 +280,7 @@ export const feedbacks = [
     }
   },
   {
-    date: "18/08/2023",
+    date: '2023/08/18',
     name: "Cortney Wells",
     feedback: {
       original: {
@@ -294,7 +294,7 @@ export const feedbacks = [
     }
   },
   {
-    date: "26/07/2023",
+    date: '2023/07/26',
     name: "Rodrigo Cleyton De Oliveira Porto",
     feedback: {
       original: {
@@ -308,7 +308,7 @@ export const feedbacks = [
     }
   },
   {
-    date: "28/06/2023",
+    date: '2023/06/28',
     name: "Michel Augusto Pereira",
     feedback: {
       original: {
@@ -322,7 +322,7 @@ export const feedbacks = [
     }
   },
   {
-    date: "27/06/2023",
+    date: '2023/06/27',
     name: "Thalia Franca Vaz",
     feedback: {
       original: {
@@ -336,7 +336,7 @@ export const feedbacks = [
     }
   },
   {
-    date: "29/05/2023",
+    date: '2023/05/29',
     name: "Bianca Doria",
     feedback: {
       original: {
@@ -350,7 +350,7 @@ export const feedbacks = [
     }
   },
   {
-    date: "01/04/2023",
+    date: '2023/04/01',
     name: "Vanessa Patricia De Oliveira Nunes E Silva",
     feedback: {
       original: {
@@ -364,7 +364,7 @@ export const feedbacks = [
     }
   },
   {
-    date: "31/03/2023",
+    date: '2023/03/31',
     name: "Sabrina Lopes Da Costa",
     feedback: {
       original: {
@@ -378,7 +378,7 @@ export const feedbacks = [
     }
   },
   {
-    date: "23/03/2023",
+    date: '2023/03/23',
     name: "Rajiv Chandran",
     feedback: {
       original: {
@@ -392,7 +392,7 @@ export const feedbacks = [
     }
   },
   {
-    date: "07/03/2023",
+    date: '2023/03/07',
     name: "Júlio Vieira Ferreira",
     feedback: {
       original: {
@@ -406,7 +406,7 @@ export const feedbacks = [
     }
   },
   {
-    date: "07/03/2023",
+    date: '2023/03/07',
     name: "Isaias Duarte Batalha",
     feedback: {
       original: {
@@ -420,7 +420,7 @@ export const feedbacks = [
     }
   },
   {
-    date: "06/03/2023",	
+    date: '2023/03/06',
     name: "Vitor Do Amaral Virginio Pereira",
     feedback: {
       original: {
@@ -434,7 +434,7 @@ export const feedbacks = [
     }
   },
   {
-    date: "06/03/2023",
+    date: '2023/03/06',
     name: "Amanda Martins Andrade",
     feedback: {
       original: {
@@ -448,7 +448,7 @@ export const feedbacks = [
     }
   },
   {
-    date: "06/03/2023",
+    date: '2023/03/06',
     name: "Karla Caboi",
     feedback: {
       original: {
@@ -462,7 +462,7 @@ export const feedbacks = [
     }
   },
   {
-    date: "06/03/2023",
+    date: '2023/03/06',
     name: "Marcelo Becker Becker",
     feedback: {
       original: {
@@ -476,7 +476,7 @@ export const feedbacks = [
     }
   },
   {
-    date: "06/03/2023",
+    date: '2023/03/06',
     name: "Magdieline Sander",
     feedback: {
       original: {
@@ -490,7 +490,7 @@ export const feedbacks = [
     }
   },
   {
-    date: "16/01/2023",
+    date: '2023/01/16',
     name: "Rajiv Chandran",
     feedback: {
       original: {
@@ -504,7 +504,7 @@ export const feedbacks = [
     }
   },
   {
-    date: "21/10/2022",
+    date: '2022/10/21',
     name: "Kemilly Caetano Silva",
     feedback: {
       original: {
