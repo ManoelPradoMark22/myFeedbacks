@@ -219,8 +219,8 @@ body {
   display: block; /* Exibe quando a classe 'show' está presente */
 }
 
-/* Aplicar o hover somente em desktops */
-@media (min-width: 768px) {
+/* Aplica o hover apenas em dispositivos que não são de toque */
+@media (hover: hover) and (pointer: fine) {
   .dropdown:hover .dropdown-content {
     display: block;
   }
