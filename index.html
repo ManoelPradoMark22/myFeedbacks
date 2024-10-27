@@ -180,6 +180,21 @@
                     dateElement.textContent = formatDate(feedback.date, currentLanguage);
                     feedbackCard.appendChild(dateElement);
 
+                    if(currentLanguage !== 'original') {
+                        const appendOriginal = (value) => {
+                            const originalElement = document.createElement('p');
+                            originalElement.className = 'original';
+                            originalElement.textContent = value;
+                            feedbackCard.appendChild(originalElement);
+                        }
+
+                        if (currentLanguage === 'en' && feedback.feedback.translation.language === 'en') {
+                            appendOriginal('Original: Portuguese')
+                        } else if (currentLanguage === 'pt-br' && feedback.feedback.translation.language === 'pt-br') {
+                            appendOriginal('Original: English')
+                        }
+                    }
+
                     feedbackContainer.appendChild(feedbackCard);
                 });
         };

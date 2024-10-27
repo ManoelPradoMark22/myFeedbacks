@@ -179,6 +179,12 @@ body {
   margin-top: 0.5rem;
 }
 
+.feedback-card .original {
+  font-size: 0.6rem;
+  color: #8e8e93;
+  margin: 0;
+}
+
 .blurred-word {
   background: #525252;
   color: transparent;
