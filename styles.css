@@ -219,8 +219,11 @@ body {
   display: block; /* Exibe quando a classe 'show' está presente */
 }
 
-.dropdown:hover .dropdown-content {
-  display: block; /* Mostra o conteúdo do dropdown ao passar o mouse */
+/* Aplicar o hover somente em desktops */
+@media (min-width: 768px) {
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 }
 
 .dropdown-item {
