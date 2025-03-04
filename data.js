@@ -183,7 +183,7 @@ export const feedbacks = [
   },
   {
     date: '2024/07/30',
-    name: "C23hj45 B3jk43nf09 A21k3 L34kj",
+    name: "C23hj45 L34kj",
     role: "Software Engineering Analyst - Frontend",
     feedback: {
       original: {
@@ -302,7 +302,7 @@ export const feedbacks = [
   },
   {
     date: '2024/04/08',
-    name: "C23hj45 B3jk43nf09 A21k3 L34kj",
+    name: "C23hj45 L34kj",
     role: "Software Engineering Analyst - Frontend",
     feedback: {
       original: {
