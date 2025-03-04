@@ -8,12 +8,17 @@
 </head>
 <body>
     <div class="language-selector">
-        <div class="dropdown">
-            <img src="./assets/flag-us-br.svg" alt="Language Icon" class="language-icon" id="language-icon">
-            <div class="dropdown-content">
-                <div class="dropdown-item" data-language="original">Original</div>
-                <div class="dropdown-item" data-language="en">English</div>
-                <div class="dropdown-item" data-language="pt-br">Portuguese</div>
+        <div class="dropdown-wrapper">
+            <div class="dropdown">
+                <img src="./assets/flag-us-br.svg" alt="Language Icon" class="language-icon" id="language-icon">
+                <div class="dropdown-content">
+                    <div class="dropdown-item" data-language="original">Original</div>
+                    <div class="dropdown-item" data-language="en">English</div>
+                    <div class="dropdown-item" data-language="pt-br">Portuguese</div>
+                </div>
+            </div>
+            <div class="dropdown-icon">
+                &#9662;
             </div>
         </div>
     </div>
@@ -260,7 +265,7 @@
             performanceFooter.innerHTML = PERFORMANCE_SUMMARY_BR.footer;
         }
 
-        const dropdown = document.querySelector('.dropdown');
+        const dropdown = document.querySelector('.dropdown-wrapper');
         const dropdownContent = document.querySelector('.dropdown-content');
 
         // Event listener para o seletor de idiomas

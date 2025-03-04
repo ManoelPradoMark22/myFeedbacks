@@ -216,8 +216,26 @@ body {
   z-index: 1000;
 }
 
-.dropdown {
+.dropdown-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  cursor: pointer;
+  background-color: rgba(44, 44, 46, 0.7);
+  border-radius: 4px;
+  padding: 2px 2px 0 6px;
   position: relative;
+}
+
+.dropdown-icon {
+  font-size: 14px;
+  color: #444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown {
   display: inline-block;
 }
 
@@ -244,7 +262,7 @@ body {
 
 /* Aplica o hover apenas em dispositivos que não são de toque */
 @media (hover: hover) and (pointer: fine) {
-  .dropdown:hover .dropdown-content {
+  .dropdown-wrapper:hover .dropdown-content {
     display: block;
   }
 }
