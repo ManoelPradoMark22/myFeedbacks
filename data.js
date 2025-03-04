@@ -113,11 +113,11 @@ export const feedbacks = [
     feedback: {
       original: {
         language: 'pt-br',
-        value: "Trabalhar com Manoel no projeto tem sido uma experiência muito positiva! Ele é um profissional muito dedicado e comprometido em entregar o melhor, com um alto conhecimento técnico da aplicação. Isso lhe permite entender o que precisa ser desenvolvido, além de trazer pontos importantes para o processo de desenvolvimento. Manoel está sempre disposto a esclarecer dúvidas, responder perguntas e tomar a iniciativa nas atividades. Além disso, ele sempre se demonstra comprometido em atender aos pedidos do time de design, garantindo que a aplicação ofereça a melhor experiência e seja entregue com qualidade!"
+        value: "Trabalhar com <b>Manoel</b> no projeto tem sido uma experiência muito positiva! Ele é um profissional muito dedicado e comprometido em entregar o melhor, com um alto conhecimento técnico da aplicação. Isso lhe permite entender o que precisa ser desenvolvido, além de trazer pontos importantes para o processo de desenvolvimento. <b>Manoel</b> está sempre disposto a esclarecer dúvidas, responder perguntas e tomar a iniciativa nas atividades. Além disso, ele sempre se demonstra comprometido em atender aos pedidos do time de design, garantindo que a aplicação ofereça a melhor experiência e seja entregue com qualidade!"
       },
       translation: {
         language: 'en',
-        value: "Working with Manoel on the project has been a very positive experience! He is a very dedicated and committed professional, with a high technical knowledge of the application. This allows him to understand what needs to be developed, as well as bringing important points to the development process. Manoel is always willing to clarify doubts, answer questions, and take the initiative in activities. Moreover, he consistently shows commitment to meet the design team's requests, ensuring the application provides the best experience and is delivered with quality!"
+        value: "Working with <b>Manoel</b> on the project has been a very positive experience! He is a very dedicated and committed professional, with a high technical knowledge of the application. This allows him to understand what needs to be developed, as well as bringing important points to the development process. <b>Manoel</b> is always willing to clarify doubts, answer questions, and take the initiative in activities. Moreover, he consistently shows commitment to meet the design team's requests, ensuring the application provides the best experience and is delivered with quality!"
       }
     }
   },
@@ -128,11 +128,11 @@ export const feedbacks = [
     feedback: {
       original: {
         language: 'en',
-        value: "I have had the great fortune to work alongside Manoel building a very complex WOKAPPLICATIONX. Manoel's work always demonstrates exceptional attention to detail, ensuring every aspect of the user interface is thoughtfully crafted and user-friendly. He consistently delivers work under tight deadlines without compromising quality, showcasing his remarkable efficiency and reliability. Manoel is up-to-date with industry best practices, and regularly makes invaluable suggestions to the design team to improve functionality of the product, ensuring our designs are accessible and cutting-edge. His positive attitude and collaborative spirit has elevated our team's performance and the overall quality of the product immeasurably. Thank you, Manoel, for your hard work, dedication, and high standard of excellence."
+        value: "I have had the great fortune to work alongside <b>Manoel</b> building a very complex WOKAPPLICATIONX. <b>Manoel</b>'s work always demonstrates exceptional attention to detail, ensuring every aspect of the user interface is thoughtfully crafted and user-friendly. He consistently delivers work under tight deadlines without compromising quality, showcasing his remarkable efficiency and reliability. <b>Manoel</b> is up-to-date with industry best practices, and regularly makes invaluable suggestions to the design team to improve functionality of the product, ensuring our designs are accessible and cutting-edge. His positive attitude and collaborative spirit has elevated our team's performance and the overall quality of the product immeasurably. Thank you, <b>Manoel</b>, for your hard work, dedication, and high standard of excellence."
       },
       translation: {
         language: 'pt-br',
-        value: "Tive a grande sorte de trabalhar ao lado do Manoel na construção de um WOKAPPLICATIONX muito complexo. O trabalho do Manoel sempre demonstra uma atenção excepcional aos detalhes, garantindo que cada aspecto da interface do usuário seja cuidadosamente elaborado e amigável. Ele consistentemente entrega trabalho sob prazos apertados sem comprometer a qualidade, mostrando sua notável eficiência e confiabilidade. Manoel está atualizado com as melhores práticas do setor e regularmente faz sugestões inestimáveis para a equipe de design para melhorar a funcionalidade do produto, garantindo que nossos designs sejam acessíveis e de ponta. Sua atitude positiva e espírito colaborativo elevaram o desempenho de nossa equipe e a qualidade geral do produto imensamente. Obrigado, Manoel, por seu trabalho duro, dedicação e alto padrão de excelência."
+        value: "Tive a grande sorte de trabalhar ao lado do <b>Manoel</b> na construção de um WOKAPPLICATIONX muito complexo. O trabalho do <b>Manoel</b> sempre demonstra uma atenção excepcional aos detalhes, garantindo que cada aspecto da interface do usuário seja cuidadosamente elaborado e amigável. Ele consistentemente entrega trabalho sob prazos apertados sem comprometer a qualidade, mostrando sua notável eficiência e confiabilidade. <b>Manoel</b> está atualizado com as melhores práticas do setor e regularmente faz sugestões inestimáveis para a equipe de design para melhorar a funcionalidade do produto, garantindo que nossos designs sejam acessíveis e de ponta. Sua atitude positiva e espírito colaborativo elevaram o desempenho de nossa equipe e a qualidade geral do produto imensamente. Obrigado, <b>Manoel</b>, por seu trabalho duro, dedicação e alto padrão de excelência."
       }
     }
   },
@@ -158,11 +158,11 @@ export const feedbacks = [
     feedback: {
       original: {
         language: 'pt-br',
-        value: "Manoel entrou no time da CLIENTXXD ali pelo meio deste fiscal, como desenvolvedor de front end. Teve um comportamento muito legal em propor uma mudança de atuação no time, indo para a área de desenvolvimento. Tem tido feedbacks muito positivos do time da CLIENTXXD, tanto tecnicamente como comportamental, e é figura super importante no nosso time ali neste cliente."
+        value: "<b>Manoel</b> entrou no time da CLIENTXXD ali pelo meio deste fiscal, como desenvolvedor de front end. Teve um comportamento muito legal em propor uma mudança de atuação no time, indo para a área de desenvolvimento. Tem tido feedbacks muito positivos do time da CLIENTXXD, tanto tecnicamente como comportamental, e é figura super importante no nosso time ali neste cliente."
       },
       translation: {
         language: 'en',
-        value: "Manoel joined the CLIENTXXD team midway through this fiscal year as a front-end developer. He showed a very nice attitude in proposing a shift in his role, moving into the development area. He has received very positive feedback from the CLIENTXXD team, both technically and behaviorally, and is a key figure in our team at this client."
+        value: "<b>Manoel</b> joined the CLIENTXXD team midway through this fiscal year as a front-end developer. He showed a very nice attitude in proposing a shift in his role, moving into the development area. He has received very positive feedback from the CLIENTXXD team, both technically and behaviorally, and is a key figure in our team at this client."
       }
     }
   },
@@ -173,11 +173,11 @@ export const feedbacks = [
     feedback: {
       original: {
         language: 'pt-br',
-        value: "Manoel vem se mostrando uma pessoa extremamente dedicada ao que faz. Seu trabalho como front-end no projeto da CLIENTXXD Energy é crucial para o sucesso do nosso projeto. Sua atenção aos detalhes é notável pois é nítido como ele se preocupada e tem o senso de responsabilidade para entregar um produto de valor para nosso cliente. Sua capacidade de se comunicar em inglês também é excelente e clara para todo o time. Sua dedicação em cada sprint é vista por todos, a prova disso são todos os feedbacks positivos que Manoel recebe em todas as retrospectivas que temos. Dedicado, atencioso, responsável e sempre fazendo entregas rápidas e de muita qualidade. Manoel está no caminho certo, e com certeza está pronto para o próximo level, recebendo mais responsabilidades."
+        value: "<b>Manoel</b> vem se mostrando uma pessoa extremamente dedicada ao que faz. Seu trabalho como front-end no projeto da CLIENTXXD Energy é crucial para o sucesso do nosso projeto. Sua atenção aos detalhes é notável pois é nítido como ele se preocupada e tem o senso de responsabilidade para entregar um produto de valor para nosso cliente. Sua capacidade de se comunicar em inglês também é excelente e clara para todo o time. Sua dedicação em cada sprint é vista por todos, a prova disso são todos os feedbacks positivos que <b>Manoel</b> recebe em todas as retrospectivas que temos. Dedicado, atencioso, responsável e sempre fazendo entregas rápidas e de muita qualidade. <b>Manoel</b> está no caminho certo, e com certeza está pronto para o próximo level, recebendo mais responsabilidades."
       },
       translation: {
         language: 'en',
-        value: "Manoel has shown himself to be an extremely dedicated person to what he does. His work as a front-end developer on the CLIENTXXD Energy project is crucial to the success of our project. His attention to detail is remarkable as it is clear how much he cares and has the sense of responsibility to deliver a valuable product for our client. His ability to communicate in English is also excellent and clear to the entire team. His dedication in each sprint is seen by all, evidenced by the positive feedback Manoel receives in all our retrospectives. Dedicated, attentive, responsible, and always delivering quickly and with great quality. Manoel is on the right path, and is certainly ready for the next level, taking on more responsibilities."
+        value: "<b>Manoel</b> has shown himself to be an extremely dedicated person to what he does. His work as a front-end developer on the CLIENTXXD Energy project is crucial to the success of our project. His attention to detail is remarkable as it is clear how much he cares and has the sense of responsibility to deliver a valuable product for our client. His ability to communicate in English is also excellent and clear to the entire team. His dedication in each sprint is seen by all, evidenced by the positive feedback <b>Manoel</b> receives in all our retrospectives. Dedicated, attentive, responsible, and always delivering quickly and with great quality. <b>Manoel</b> is on the right path, and is certainly ready for the next level, taking on more responsibilities."
       }
     }
   },
@@ -188,11 +188,11 @@ export const feedbacks = [
     feedback: {
       original: {
         language: 'pt-br',
-        value: "Manoel é um membro muito valioso para a equipe, destacando-se pela sua capacidade de lidar com demandas de alta complexidade com maestria. Seu pensamento proativo e visão estratégica são notáveis, muitas vezes antecipando e resolvendo problemas antes que eles se tornem críticos. Além disso, seu forte senso técnico e competência são evidentes em todas as suas entregas, refletindo um profundo entendimento do seu trabalho. Manoel está claramente pronto para assumir novos desafios e avançar para o próximo nível em sua carreira. Obrigada pela parceria e dedicação ao longo desse tempo em que atuamos juntos."
+        value: "<b>Manoel</b> é um membro muito valioso para a equipe, destacando-se pela sua capacidade de lidar com demandas de alta complexidade com maestria. Seu pensamento proativo e visão estratégica são notáveis, muitas vezes antecipando e resolvendo problemas antes que eles se tornem críticos. Além disso, seu forte senso técnico e competência são evidentes em todas as suas entregas, refletindo um profundo entendimento do seu trabalho. <b>Manoel</b> está claramente pronto para assumir novos desafios e avançar para o próximo nível em sua carreira. Obrigada pela parceria e dedicação ao longo desse tempo em que atuamos juntos."
       },
       translation: {
         language: 'en',
-        value: "Manoel is a very valuable member of the team, standing out for his ability to handle high-complexity demands with mastery. His proactive thinking and strategic vision are remarkable, often anticipating and resolving problems before they become critical. Furthermore, his strong technical sense and competence are evident in all his deliveries, reflecting a deep understanding of his work. Manoel is clearly ready to take on new challenges and advance to the next level in his career. Thank you for the partnership and dedication throughout this time we have worked together."
+        value: "<b>Manoel</b> is a very valuable member of the team, standing out for his ability to handle high-complexity demands with mastery. His proactive thinking and strategic vision are remarkable, often anticipating and resolving problems before they become critical. Furthermore, his strong technical sense and competence are evident in all his deliveries, reflecting a deep understanding of his work. <b>Manoel</b> is clearly ready to take on new challenges and advance to the next level in his career. Thank you for the partnership and dedication throughout this time we have worked together."
       }
     }
   },
@@ -203,11 +203,11 @@ export const feedbacks = [
     feedback: {
       original: {
         language: 'en',
-        value: "Manoel has consistently demonstrated exceptional performance as a front-end developer this past year. His ability to produce high-quality code while maintaining a keen eye for detail has been invaluable to the team. Their contributions have directly impacted the success of WOKAPPLICATIONX. Moreover, Manoel has proven to be an effective communicator, proactively seeking clarification on requirements and effectively collaborating with team members to ensure project success. His proactive approach to problem-solving and their positive attitude have been exemplary. Manoel’s strong technical skills combined with their excellent communication abilities make them a valuable asset to the team. I am confident in their ability to take on increasingly complex challenges and contribute significantly in future projects."
+        value: "<b>Manoel</b> has consistently demonstrated exceptional performance as a front-end developer this past year. His ability to produce high-quality code while maintaining a keen eye for detail has been invaluable to the team. Their contributions have directly impacted the success of WOKAPPLICATIONX. Moreover, <b>Manoel</b> has proven to be an effective communicator, proactively seeking clarification on requirements and effectively collaborating with team members to ensure project success. His proactive approach to problem-solving and their positive attitude have been exemplary. <b>Manoel</b>’s strong technical skills combined with their excellent communication abilities make them a valuable asset to the team. I am confident in their ability to take on increasingly complex challenges and contribute significantly in future projects."
       },
       translation: {
         language: 'pt-br',
-        value: "Manoel tem demonstrado consistentemente um desempenho excepcional como desenvolvedor front-end no último ano. Sua capacidade de produzir código de alta qualidade enquanto mantém um olhar atento aos detalhes tem sido inestimável para a equipe. Suas contribuições impactaram diretamente o sucesso do WOKAPPLICATIONX. Além disso, Manoel provou ser um comunicador eficaz, buscando proativamente esclarecimentos sobre os requisitos e colaborando de forma eficaz com os membros da equipe para garantir o sucesso do projeto. Sua abordagem proativa para a resolução de problemas e sua atitude positiva têm sido exemplares. As fortes habilidades técnicas de Manoel combinadas com suas excelentes habilidades de comunicação o tornam um ativo valioso para a equipe. Estou confiante em sua capacidade de enfrentar desafios cada vez mais complexos e contribuir significativamente em projetos futuros."
+        value: "<b>Manoel</b> tem demonstrado consistentemente um desempenho excepcional como desenvolvedor front-end no último ano. Sua capacidade de produzir código de alta qualidade enquanto mantém um olhar atento aos detalhes tem sido inestimável para a equipe. Suas contribuições impactaram diretamente o sucesso do WOKAPPLICATIONX. Além disso, <b>Manoel</b> provou ser um comunicador eficaz, buscando proativamente esclarecimentos sobre os requisitos e colaborando de forma eficaz com os membros da equipe para garantir o sucesso do projeto. Sua abordagem proativa para a resolução de problemas e sua atitude positiva têm sido exemplares. As fortes habilidades técnicas de <b>Manoel</b> combinadas com suas excelentes habilidades de comunicação o tornam um ativo valioso para a equipe. Estou confiante em sua capacidade de enfrentar desafios cada vez mais complexos e contribuir significativamente em projetos futuros."
       }
     }
   },
@@ -233,11 +233,11 @@ export const feedbacks = [
     feedback: {
       original: {
         language: 'en',
-        value: "Manoel is a Front End dev on the WOKAPPLICATIONX with a very strong technical skillset. He always delivers high quality work, is thorough in understanding requirements and makes recommendations to the design/product team on features he is owning. Manoel is already performing at the next level and has been a huge asset to the team. Thank you, Manoel, for all of your hard work and contributions to the team!"
+        value: "<b>Manoel</b> is a Front End dev on the WOKAPPLICATIONX with a very strong technical skillset. He always delivers high quality work, is thorough in understanding requirements and makes recommendations to the design/product team on features he is owning. <b>Manoel</b> is already performing at the next level and has been a huge asset to the team. Thank you, <b>Manoel</b>, for all of your hard work and contributions to the team!"
       },
       translation: {
         language: 'pt-br',
-        value: "Manoel é um desenvolvedor Front End no WOKAPPLICATIONX com um conjunto de habilidades técnicas muito forte. Ele sempre entrega trabalhos de alta qualidade, é minucioso na compreensão dos requisitos e faz recomendações à equipe de design/produto sobre as funcionalidades que está gerenciando. Manoel já está atuando no próximo nível e tem sido um grande ativo para a equipe. Obrigado, Manoel, por todo o seu trabalho duro e contribuições para a equipe!"
+        value: "<b>Manoel</b> é um desenvolvedor Front End no WOKAPPLICATIONX com um conjunto de habilidades técnicas muito forte. Ele sempre entrega trabalhos de alta qualidade, é minucioso na compreensão dos requisitos e faz recomendações à equipe de design/produto sobre as funcionalidades que está gerenciando. <b>Manoel</b> já está atuando no próximo nível e tem sido um grande ativo para a equipe. Obrigado, <b>Manoel</b>, por todo o seu trabalho duro e contribuições para a equipe!"
       }
     }
   },
@@ -248,11 +248,11 @@ export const feedbacks = [
     feedback: {
       original: {
         language: 'pt-br',
-        value: "Tenho o privilégio de ter o Manoel como meu mentorado. Desde sua chegada pelo programa da Impulso Tech, se tornando um EMPRESERXER, se demonstrou um profissional fora da curva. Primeiro: No projeto interno de governança da AABG, cobriu licença maternidade de uma excelente profissional com anos de casa e com grande parte do seu trabalho bem estruturado. Seu trabalho era apenas de continuidade, mas.... Manoel, abraçou o projeto com espírito de dono e elevou o trabalho a um patamar extremamente profissional o que trouxe uma grata surpresa para nossa executiva. O Trabalho trouxe uma possibilidade de se relacionar com o time interno da AABG, com AWS (Local e Global) e Partners de treinamento, o que ampliou sua importância para a governança da nossa área. Nesse job, ajudou na alocação, treinamento, certificação, bem como no acompanhamento e crescimento na carreira de todo o time, incluindo executivos. Segundo: Tendo um viés de desenvolvedor alinhado com suas expectativas de carreira, foi naturalmente absorvido em uma oportunidade em um dos maiores clientes da EMPRESAX = CLIENTXXD que é caracterizado como Mega Diamond. Um projeto internacional, respondendo diretamente à EMPRESAX dos EUA. Sua desenvoltura e qualidade técnica chamam a atenção, pois já demonstra que está atuando em um CLevel superior ao atual. Recomendo fortemente a promoção do Manoel para as próximas avaliações. Foi e sempre será um prazer trabalhar contigo, Manoel."
+        value: "Tenho o privilégio de ter o <b>Manoel</b> como meu mentorado. Desde sua chegada pelo programa da Impulso Tech, se tornando um EMPRESERXER, se demonstrou um profissional fora da curva. Primeiro: No projeto interno de governança da AABG, cobriu licença maternidade de uma excelente profissional com anos de casa e com grande parte do seu trabalho bem estruturado. Seu trabalho era apenas de continuidade, mas.... <b>Manoel</b>, abraçou o projeto com espírito de dono e elevou o trabalho a um patamar extremamente profissional o que trouxe uma grata surpresa para nossa executiva. O Trabalho trouxe uma possibilidade de se relacionar com o time interno da AABG, com AWS (Local e Global) e Partners de treinamento, o que ampliou sua importância para a governança da nossa área. Nesse job, ajudou na alocação, treinamento, certificação, bem como no acompanhamento e crescimento na carreira de todo o time, incluindo executivos. Segundo: Tendo um viés de desenvolvedor alinhado com suas expectativas de carreira, foi naturalmente absorvido em uma oportunidade em um dos maiores clientes da EMPRESAX = CLIENTXXD que é caracterizado como Mega Diamond. Um projeto internacional, respondendo diretamente à EMPRESAX dos EUA. Sua desenvoltura e qualidade técnica chamam a atenção, pois já demonstra que está atuando em um CLevel superior ao atual. Recomendo fortemente a promoção do <b>Manoel</b> para as próximas avaliações. Foi e sempre será um prazer trabalhar contigo, <b>Manoel</b>."
       },
       translation: {
         language: 'en',
-        value: "I have the privilege of having Manoel as my mentee. Since his arrival through the Impulso Tech program, becoming an EMPRESERXER, he has proven to be an outstanding professional. First: In the internal governance project of AABG, he covered the maternity leave of an excellent professional with years in the company and a large part of her work well structured. His work was merely continuity, but.... Manoel embraced the project with a sense of ownership and elevated the work to an extremely professional level, which brought a pleasant surprise to our executive. The job provided an opportunity to relate to the internal team of AABG, with AWS (Local and Global) and training Partners, which enhanced his importance for the governance of our area. In this job, he helped with allocation, training, certification, as well as monitoring and career growth for the entire team, including executives. Second: Having a developer bias aligned with his career expectations, he was naturally absorbed into an opportunity with one of EMPRESAX's largest clients = CLIENTXXD, characterized as Mega Diamond. An international project, responding directly to EMPRESAX in the USA. His skill and technical quality stand out, as he already demonstrates that he is operating at a CLevel above his current one. I strongly recommend Manoel's promotion for the upcoming evaluations. It has been and will always be a pleasure to work with you, Manoel."
+        value: "I have the privilege of having <b>Manoel</b> as my mentee. Since his arrival through the Impulso Tech program, becoming an EMPRESERXER, he has proven to be an outstanding professional. First: In the internal governance project of AABG, he covered the maternity leave of an excellent professional with years in the company and a large part of her work well structured. His work was merely continuity, but.... <b>Manoel</b> embraced the project with a sense of ownership and elevated the work to an extremely professional level, which brought a pleasant surprise to our executive. The job provided an opportunity to relate to the internal team of AABG, with AWS (Local and Global) and training Partners, which enhanced his importance for the governance of our area. In this job, he helped with allocation, training, certification, as well as monitoring and career growth for the entire team, including executives. Second: Having a developer bias aligned with his career expectations, he was naturally absorbed into an opportunity with one of EMPRESAX's largest clients = CLIENTXXD, characterized as Mega Diamond. An international project, responding directly to EMPRESAX in the USA. His skill and technical quality stand out, as he already demonstrates that he is operating at a CLevel above his current one. I strongly recommend <b>Manoel</b>'s promotion for the upcoming evaluations. It has been and will always be a pleasure to work with you, <b>Manoel</b>."
       }
     }
   },
@@ -263,11 +263,11 @@ export const feedbacks = [
     feedback: {
       original: {
         language: 'pt-br',
-        value: "Manoel tem se mostrado um desenvolvedor exemplar no projeto internacional da CLIENTXXD. Ele entrega tarefas extremamente complexas com um alto nível de conhecimento e domínio técnico. Manoel também demonstra um profundo entendimento das regras de negócio e está sempre disponível para auxiliar em qualquer demanda. Ele se destaca por pensar em variados tipos de soluções para os problemas, o que o torna uma peça-chave para as entregas."
+        value: "<b>Manoel</b> tem se mostrado um desenvolvedor exemplar no projeto internacional da CLIENTXXD. Ele entrega tarefas extremamente complexas com um alto nível de conhecimento e domínio técnico. <b>Manoel</b> também demonstra um profundo entendimento das regras de negócio e está sempre disponível para auxiliar em qualquer demanda. Ele se destaca por pensar em variados tipos de soluções para os problemas, o que o torna uma peça-chave para as entregas."
       },
       translation: {
         language: 'en',
-        value: "Manoel has proven to be an exemplary developer in the international CLIENTXXD project. He delivers extremely complex tasks with a high level of knowledge and technical mastery. Manoel also demonstrates a deep understanding of business rules and is always available to assist with any demand. He stands out for thinking of various types of solutions to problems, making him a key player in deliveries."
+        value: "<b>Manoel</b> has proven to be an exemplary developer in the international CLIENTXXD project. He delivers extremely complex tasks with a high level of knowledge and technical mastery. <b>Manoel</b> also demonstrates a deep understanding of business rules and is always available to assist with any demand. He stands out for thinking of various types of solutions to problems, making him a key player in deliveries."
       }
     }
   },
@@ -278,11 +278,11 @@ export const feedbacks = [
     feedback: {
       original: {
         language: 'pt-br',
-        value: "Manoel, sua atuação como desenvolvedor frontend no projeto tem sido excepcional. Admiro muito sua habilidade em identificar e resolver problemas rapidamente, sempre trazendo soluções inovadoras e pontos de vista diferentes. Além da sua competência técnica, é um prazer poder trabalhar com você. Sua disposição em ajudar os colegas e sua postura diante dos desafios são admiráveis e contribuem muito para um ambiente de trabalho agradável. Obrigada por todo o apoio! Continue com o excelente trabalho que vem realizando!"
+        value: "<b>Manoel</b>, sua atuação como desenvolvedor frontend no projeto tem sido excepcional. Admiro muito sua habilidade em identificar e resolver problemas rapidamente, sempre trazendo soluções inovadoras e pontos de vista diferentes. Além da sua competência técnica, é um prazer poder trabalhar com você. Sua disposição em ajudar os colegas e sua postura diante dos desafios são admiráveis e contribuem muito para um ambiente de trabalho agradável. Obrigada por todo o apoio! Continue com o excelente trabalho que vem realizando!"
       },
       translation: {
         language: 'en',
-        value: "Manoel, your performance as a frontend developer on the project has been exceptional. I greatly admire your ability to quickly identify and solve problems, always bringing innovative solutions and different viewpoints. In addition to your technical competence, it is a pleasure to work with you. Your willingness to help colleagues and your attitude towards challenges are admirable and contribute greatly to a pleasant work environment. Thank you for all your support! Keep up the excellent work you're doing!"
+        value: "<b>Manoel</b>, your performance as a frontend developer on the project has been exceptional. I greatly admire your ability to quickly identify and solve problems, always bringing innovative solutions and different viewpoints. In addition to your technical competence, it is a pleasure to work with you. Your willingness to help colleagues and your attitude towards challenges are admirable and contribute greatly to a pleasant work environment. Thank you for all your support! Keep up the excellent work you're doing!"
       }
     }
   },
@@ -292,11 +292,11 @@ export const feedbacks = [
     feedback: {
       original: {
         language: 'pt-br',
-        value: "Gostaria de expressar minha gratidão pelo apoio e orientação do Manoel com relação aos treinamentos da AWS, obtenção de vouchers e cursos. Sempre acessível, com atitudes positivas, organização e proatividade foi fundamental pelo meu sucesso na obtenção das certificações. Certamente faz a diferença para o sucesso do time e da empresa!"
+        value: "Gostaria de expressar minha gratidão pelo apoio e orientação do <b>Manoel</b> com relação aos treinamentos da AWS, obtenção de vouchers e cursos. Sempre acessível, com atitudes positivas, organização e proatividade foi fundamental pelo meu sucesso na obtenção das certificações. Certamente faz a diferença para o sucesso do time e da empresa!"
       },
       translation: {
         language: 'en',
-        value: "I would like to express my gratitude for Manoel's support and guidance regarding AWS training, obtaining vouchers, and courses. Always accessible, with positive attitudes, organization, and proactivity, he was fundamental to my success in obtaining certifications. He certainly makes a difference for the success of the team and the company!"
+        value: "I would like to express my gratitude for <b>Manoel</b>'s support and guidance regarding AWS training, obtaining vouchers, and courses. Always accessible, with positive attitudes, organization, and proactivity, he was fundamental to my success in obtaining certifications. He certainly makes a difference for the success of the team and the company!"
       }
     }
   },
@@ -307,11 +307,11 @@ export const feedbacks = [
     feedback: {
       original: {
         language: 'pt-br',
-        value: "Nos últimos três meses, tenho tido o prazer de trabalhar com o Manoel no projeto EXXXX. Durante esse período, pude observar claramente sua evolução e contribuição significativa para o sucesso do projeto. Manoel tem consistentemente entregado resultados de alta qualidade, sempre dentro dos prazos estabelecidos. Sua dedicação e comprometimento com o trabalho são admiráveis, e ele demonstra uma disposição excepcional para ajudar os colegas. Além disso, Manoel constantemente apresenta novas ideias e soluções para resolver demandas do projeto, mostrando um pensamento proativo e criativo. Sua busca contínua por conhecimento e aprimoramento de suas habilidades também é notável, refletindo-se no seu desempenho e contribuição para a equipe. Em resumo, Manoel é um excelente profissional que busca sempre o melhor para o projeto e para o nosso time. Parabéns pelo seu desempenho e muito obrigada pela parceria ao longo do projeto."
+        value: "Nos últimos três meses, tenho tido o prazer de trabalhar com o <b>Manoel</b> no projeto EXXXX. Durante esse período, pude observar claramente sua evolução e contribuição significativa para o sucesso do projeto. <b>Manoel</b> tem consistentemente entregado resultados de alta qualidade, sempre dentro dos prazos estabelecidos. Sua dedicação e comprometimento com o trabalho são admiráveis, e ele demonstra uma disposição excepcional para ajudar os colegas. Além disso, <b>Manoel</b> constantemente apresenta novas ideias e soluções para resolver demandas do projeto, mostrando um pensamento proativo e criativo. Sua busca contínua por conhecimento e aprimoramento de suas habilidades também é notável, refletindo-se no seu desempenho e contribuição para a equipe. Em resumo, <b>Manoel</b> é um excelente profissional que busca sempre o melhor para o projeto e para o nosso time. Parabéns pelo seu desempenho e muito obrigada pela parceria ao longo do projeto."
       },
       translation: {
         language: 'en',
-        value: "Over the past three months, I have had the pleasure of working with Manoel on the EXXXX project. During this time, I have clearly observed his evolution and significant contribution to the project's success. Manoel has consistently delivered high-quality results, always within established deadlines. His dedication and commitment to work are admirable, and he demonstrates an exceptional willingness to help colleagues. Moreover, Manoel continuously presents new ideas and solutions to address project demands, showcasing proactive and creative thinking. His ongoing pursuit of knowledge and skill improvement is also notable, reflected in his performance and contribution to the team. In summary, Manoel is an excellent professional who always seeks the best for the project and our team. Congratulations on your performance, and thank you for the partnership throughout the project."
+        value: "Over the past three months, I have had the pleasure of working with <b>Manoel</b> on the EXXXX project. During this time, I have clearly observed his evolution and significant contribution to the project's success. <b>Manoel</b> has consistently delivered high-quality results, always within established deadlines. His dedication and commitment to work are admirable, and he demonstrates an exceptional willingness to help colleagues. Moreover, <b>Manoel</b> continuously presents new ideas and solutions to address project demands, showcasing proactive and creative thinking. His ongoing pursuit of knowledge and skill improvement is also notable, reflected in his performance and contribution to the team. In summary, <b>Manoel</b> is an excellent professional who always seeks the best for the project and our team. Congratulations on your performance, and thank you for the partnership throughout the project."
       }
     }
   },
@@ -336,11 +336,11 @@ export const feedbacks = [
     feedback: {
       original: {
         language: 'en',
-        value: "Great work, Manoel! Your willingness to help and teach has made a significant impact on the governance of AABG. Your dedication to your work is evident in the knowledge and skills you have demonstrated in programming. I encourage you not to give up on this area as it is an essential skill that can benefit both you and the organization in the future. Keep up the excellent work, and I look forward to seeing your continued growth and contributions to our team. (Submitted via HRBuddy)"
+        value: "Great work, <b>Manoel</b>! Your willingness to help and teach has made a significant impact on the governance of AABG. Your dedication to your work is evident in the knowledge and skills you have demonstrated in programming. I encourage you not to give up on this area as it is an essential skill that can benefit both you and the organization in the future. Keep up the excellent work, and I look forward to seeing your continued growth and contributions to our team. (Submitted via HRBuddy)"
       },
       translation: {
         language: 'pt-br',
-        value: "Ótimo trabalho, Manoel! Sua disposição para ajudar e ensinar teve um impacto significativo na governança da AABG. Sua dedicação ao seu trabalho é evidente no conhecimento e habilidades que você demonstrou na programação. Eu o encorajo a não desistir dessa área, pois é uma habilidade essencial que pode beneficiar tanto você quanto a organização no futuro. Continue com o excelente trabalho, e estou ansiosa para ver seu crescimento contínuo e contribuições para nossa equipe. (Enviado via HRBuddy)"
+        value: "Ótimo trabalho, <b>Manoel</b>! Sua disposição para ajudar e ensinar teve um impacto significativo na governança da AABG. Sua dedicação ao seu trabalho é evidente no conhecimento e habilidades que você demonstrou na programação. Eu o encorajo a não desistir dessa área, pois é uma habilidade essencial que pode beneficiar tanto você quanto a organização no futuro. Continue com o excelente trabalho, e estou ansiosa para ver seu crescimento contínuo e contribuições para nossa equipe. (Enviado via HRBuddy)"
       }
     }
   },
@@ -437,11 +437,11 @@ export const feedbacks = [
     feedback: {
       original: {
         language: 'pt-br',
-        value: "Manoel é bastante experiente no que faz. É preciso e eficiente. (Submitted via HRBuddy)"
+        value: "<b>Manoel</b> é bastante experiente no que faz. É preciso e eficiente. (Submitted via HRBuddy)"
       },
       translation: {
         language: 'en',
-        value: "Manoel is quite experienced in what he does. He is precise and efficient. (Submitted via HRBuddy)"
+        value: "<b>Manoel</b> is quite experienced in what he does. He is precise and efficient. (Submitted via HRBuddy)"
       }
     }
   },
@@ -451,11 +451,11 @@ export const feedbacks = [
     feedback: {
       original: {
         language: 'pt-br',
-        value: "Excelente profissional, está sempre apto a ajudar e compartilhar conhecimentos e aprendizados. Parabéns Manoel!! (Submitted via HRBuddy)"
+        value: "Excelente profissional, está sempre apto a ajudar e compartilhar conhecimentos e aprendizados. Parabéns <b>Manoel</b>!! (Submitted via HRBuddy)"
       },
       translation: {
         language: 'en',
-        value: "Excellent professional, always ready to help and share knowledge and learnings. Congratulations Manoel!! (Submitted via HRBuddy)"
+        value: "Excellent professional, always ready to help and share knowledge and learnings. Congratulations <b>Manoel</b>!! (Submitted via HRBuddy)"
       }
     }
   },
@@ -465,11 +465,11 @@ export const feedbacks = [
     feedback: {
       original: {
         language: 'pt-br',
-        value: "Manoel, meu agradecimento pelo seu desempenho na área de governança. Pois, sempre que solicitado para solucionar algum problema, mostra além de solicitude, muita persistência, sem deixar de trazer resultados ou informações justificadas quando não está ao seu alcance. Você é um profissional engajado e comprometido, que certamente atingirá muito sucesso em sua brilhante carreira."
+        value: "<b>Manoel</b>, meu agradecimento pelo seu desempenho na área de governança. Pois, sempre que solicitado para solucionar algum problema, mostra além de solicitude, muita persistência, sem deixar de trazer resultados ou informações justificadas quando não está ao seu alcance. Você é um profissional engajado e comprometido, que certamente atingirá muito sucesso em sua brilhante carreira."
       },
       translation: {
         language: 'en',
-        value: "Manoel, my gratitude for your performance in the governance area. Whenever requested to solve a problem, you show not only willingness but also a lot of persistence, while still bringing results or justified information when it's not within your reach. You are an engaged and committed professional who will certainly achieve great success in your brilliant career."
+        value: "<b>Manoel</b>, my gratitude for your performance in the governance area. Whenever requested to solve a problem, you show not only willingness but also a lot of persistence, while still bringing results or justified information when it's not within your reach. You are an engaged and committed professional who will certainly achieve great success in your brilliant career."
       }
     }
   },
@@ -521,11 +521,11 @@ export const feedbacks = [
     feedback: {
       original: {
         language: 'pt-br',
-        value: "Manoel atuando como faculty do treinamento JavaScript, está dando um show de compartilhamento de conhecimento. Teve destaque, demonstrando engajamento, responsabilidade e senso de prioridade. Gosta de ensinar e de aprender. O que é o primeiro passo para ser um melhor profissional. Sempre preocupado com os alunos e o nível de conhecimento. Vem melhorando a cada treinamento aplicado, trazendo novos conteúdos e exercícios. Contamos com você para melhorar o nível de conhecimento de nossas pessoas. Excelente profissional. Parabéns!"
+        value: "<b>Manoel</b> atuando como faculty do treinamento JavaScript, está dando um show de compartilhamento de conhecimento. Teve destaque, demonstrando engajamento, responsabilidade e senso de prioridade. Gosta de ensinar e de aprender. O que é o primeiro passo para ser um melhor profissional. Sempre preocupado com os alunos e o nível de conhecimento. Vem melhorando a cada treinamento aplicado, trazendo novos conteúdos e exercícios. Contamos com você para melhorar o nível de conhecimento de nossas pessoas. Excelente profissional. Parabéns!"
       },
       translation: {
         language: 'en',
-        value: "Manoel, acting as a faculty member for the JavaScript training, is putting on a show of knowledge sharing. He stood out by demonstrating engagement, responsibility, and a sense of priority. He enjoys teaching and learning, which is the first step to becoming a better professional. He is always concerned about the students and their level of knowledge. He has been improving with each training delivered, bringing new content and exercises. We count on you to enhance the knowledge level of our people. Excellent professional. Congratulations!"
+        value: "<b>Manoel</b>, acting as a faculty member for the JavaScript training, is putting on a show of knowledge sharing. He stood out by demonstrating engagement, responsibility, and a sense of priority. He enjoys teaching and learning, which is the first step to becoming a better professional. He is always concerned about the students and their level of knowledge. He has been improving with each training delivered, bringing new content and exercises. We count on you to enhance the knowledge level of our people. Excellent professional. Congratulations!"
       }
     }
   },
@@ -563,11 +563,11 @@ export const feedbacks = [
     feedback: {
       original: {
         language: 'pt-br',
-        value: "Olá! Participei do curso de Java ministrado pelo Manoel. Curso bem intenso e com bastante conteúdo. Manoel demonstrou muitos recursos com exercícios práticos. Dedicado também na avaliação do exercício final, incluindo correção e dicas em vídeos personalizados para cada aluno. Sobre a dinâmica no curso, acho que cabe talvez reservar um horário para os alunos resolverem alguns exercícios em aula."
+        value: "Olá! Participei do curso de Java ministrado pelo <b>Manoel</b>. Curso bem intenso e com bastante conteúdo. <b>Manoel</b> demonstrou muitos recursos com exercícios práticos. Dedicado também na avaliação do exercício final, incluindo correção e dicas em vídeos personalizados para cada aluno. Sobre a dinâmica no curso, acho que cabe talvez reservar um horário para os alunos resolverem alguns exercícios em aula."
       },
       translation: {
         language: 'en',
-        value: "Hello! I participated in the Java course taught by Manoel. It was a very intensive course with a lot of content. Manoel demonstrated many resources with practical exercises. He was also dedicated in evaluating the final exercise, including corrections and tips in personalized videos for each student. Regarding the dynamics of the course, I think it might be good to reserve a time for the students to solve some exercises during class."
+        value: "Hello! I participated in the Java course taught by <b>Manoel</b>. It was a very intensive course with a lot of content. <b>Manoel</b> demonstrated many resources with practical exercises. He was also dedicated in evaluating the final exercise, including corrections and tips in personalized videos for each student. Regarding the dynamics of the course, I think it might be good to reserve a time for the students to solve some exercises during class."
       }
     }
   },
@@ -577,11 +577,11 @@ export const feedbacks = [
     feedback: {
       original: {
         language: 'pt-br',
-        value: "O Manoel é um profissional extremamente competente, focado, dedicado. Pro-ativo e aprende muito rápido. Excelente instrutor e com um potencial incrível para a área de Tecnologia. Nós estivemos juntos no Projeto Impulso Tec e agora temos a oportunidade de estarmos na mesma Squad, aprendendo muito e evoluindo também. É muito bom, poder compartilhar toda essa evolução ao lado do Manoel! Iremos muito longe ainda e você sempre poderá contar comigo! Abraços e muito sucesso pra você (ainda mais)."
+        value: "O <b>Manoel</b> é um profissional extremamente competente, focado, dedicado. Pro-ativo e aprende muito rápido. Excelente instrutor e com um potencial incrível para a área de Tecnologia. Nós estivemos juntos no Projeto Impulso Tec e agora temos a oportunidade de estarmos na mesma Squad, aprendendo muito e evoluindo também. É muito bom, poder compartilhar toda essa evolução ao lado do <b>Manoel</b>! Iremos muito longe ainda e você sempre poderá contar comigo! Abraços e muito sucesso pra você (ainda mais)."
       },
       translation: {
         language: 'en',
-        value: "Manoel is an extremely competent, focused, and dedicated professional. He is proactive and learns very quickly. An excellent instructor with incredible potential for the Technology field. We worked together on the Impulso Tec Project and now have the opportunity to be in the same Squad, learning and evolving together. It is great to share this evolution alongside Manoel! We will go very far, and you can always count on me! Best wishes and much success to you (even more)."
+        value: "<b>Manoel</b> is an extremely competent, focused, and dedicated professional. He is proactive and learns very quickly. An excellent instructor with incredible potential for the Technology field. We worked together on the Impulso Tec Project and now have the opportunity to be in the same Squad, learning and evolving together. It is great to share this evolution alongside <b>Manoel</b>! We will go very far, and you can always count on me! Best wishes and much success to you (even more)."
       }
     }
   },
@@ -591,11 +591,11 @@ export const feedbacks = [
     feedback: {
       original: {
         language: 'pt-br',
-        value: "Olá, para mim é uma honra e grande prazer falar deste excelente profissional e ser humano fantástico que é o Manoel. Não tem preço participar de suas aulas! Ele se preocupa ativamente com o aluno e se persistem dúvidas, sempre está disposto para esclarecê-las. Qualquer um pode constatar sua vocação para lecionar e a preocupação com a absorção do conhecimento pelo aluno. Parabéns EMPRESAX pela contratação deste ser humano incrível e obrigado Manoel pela oportunidade ímpar de compartilhar seus conhecimentos! Um grande abraço e muito sucesso em sua jornada, Marcelo Becker."
+        value: "Olá, para mim é uma honra e grande prazer falar deste excelente profissional e ser humano fantástico que é o <b>Manoel</b>. Não tem preço participar de suas aulas! Ele se preocupa ativamente com o aluno e se persistem dúvidas, sempre está disposto para esclarecê-las. Qualquer um pode constatar sua vocação para lecionar e a preocupação com a absorção do conhecimento pelo aluno. Parabéns EMPRESAX pela contratação deste ser humano incrível e obrigado <b>Manoel</b> pela oportunidade ímpar de compartilhar seus conhecimentos! Um grande abraço e muito sucesso em sua jornada, Marcelo Becker."
       },
       translation: {
         language: 'en',
-        value: "Hello, it is an honor and a great pleasure for me to speak about this excellent professional and fantastic human being, Manoel. It is priceless to participate in his classes! He actively cares about his students and is always willing to clarify any doubts. Anyone can attest to his vocation for teaching and his concern for the students' understanding of knowledge. Congratulations to EMPRESAX for hiring this incredible human being, and thank you, Manoel, for the unique opportunity to share your knowledge! A big hug and much success in your journey, Marcelo Becker."
+        value: "Hello, it is an honor and a great pleasure for me to speak about this excellent professional and fantastic human being, <b>Manoel</b>. It is priceless to participate in his classes! He actively cares about his students and is always willing to clarify any doubts. Anyone can attest to his vocation for teaching and his concern for the students' understanding of knowledge. Congratulations to EMPRESAX for hiring this incredible human being, and thank you, <b>Manoel</b>, for the unique opportunity to share your knowledge! A big hug and much success in your journey, Marcelo Becker."
       }
     }
   },
@@ -605,11 +605,11 @@ export const feedbacks = [
     feedback: {
       original: {
         language: 'pt-br',
-        value: "Conheço o Manoel antes de entrar na EMPRESAX, quando estávamos no projeto da impulso tec, um profissional que aprendi a admirar por sua humildade e fé. Começou sua carreira criando um mini projeto para a lanchonete dos pais e vem aprimorando e melhorando cada vez mais esse trabalho, claramente pelo seu crescimento profissional, depois de todo o seu esforço e aprendizado na EMPRESAX. Manoel sempre ajudou os colegas, fazendo videos ensinado a fazer os projetos do nosso curso, ficando até mais tarde ensinando pra que todos, assim como ele, alcançassem suas metas, algo admirável, ele realmente sabe trabalhar em equipe e incentivar pessoas. Hoje como profissional contratado continua ensinando os colegas, agora de forma profissional, e tem se saído muito bem! Uma grande aquisição profissional pra empresa e tenho certeza que temos muito a aprender com ele ainda!! É um honra poder trabalhar com você."
+        value: "Conheço o <b>Manoel</b> antes de entrar na EMPRESAX, quando estávamos no projeto da impulso tec, um profissional que aprendi a admirar por sua humildade e fé. Começou sua carreira criando um mini projeto para a lanchonete dos pais e vem aprimorando e melhorando cada vez mais esse trabalho, claramente pelo seu crescimento profissional, depois de todo o seu esforço e aprendizado na EMPRESAX. <b>Manoel</b> sempre ajudou os colegas, fazendo videos ensinado a fazer os projetos do nosso curso, ficando até mais tarde ensinando pra que todos, assim como ele, alcançassem suas metas, algo admirável, ele realmente sabe trabalhar em equipe e incentivar pessoas. Hoje como profissional contratado continua ensinando os colegas, agora de forma profissional, e tem se saído muito bem! Uma grande aquisição profissional pra empresa e tenho certeza que temos muito a aprender com ele ainda!! É um honra poder trabalhar com você."
       },
       translation: {
         language: 'en',
-        value: "I have known Manoel since before joining EMPRESAX, when we were on the Impulso Tec project, a professional I have come to admire for his humility and faith. He began his career creating a mini project for his parents' snack bar and has been constantly improving that work, clearly reflecting his professional growth after all his effort and learning at EMPRESAX. Manoel has always helped his colleagues by making videos teaching how to do our course projects, staying late to ensure that everyone, like him, reaches their goals, which is admirable; he truly knows how to work in a team and motivate others. Now, as a contracted professional, he continues teaching his colleagues, now in a professional capacity, and has been doing very well! A great professional acquisition for the company, and I am sure we still have much to learn from him! It is an honor to work with you."
+        value: "I have known <b>Manoel</b> since before joining EMPRESAX, when we were on the Impulso Tec project, a professional I have come to admire for his humility and faith. He began his career creating a mini project for his parents' snack bar and has been constantly improving that work, clearly reflecting his professional growth after all his effort and learning at EMPRESAX. <b>Manoel</b> has always helped his colleagues by making videos teaching how to do our course projects, staying late to ensure that everyone, like him, reaches their goals, which is admirable; he truly knows how to work in a team and motivate others. Now, as a contracted professional, he continues teaching his colleagues, now in a professional capacity, and has been doing very well! A great professional acquisition for the company, and I am sure we still have much to learn from him! It is an honor to work with you."
       }
     }
   },
@@ -633,11 +633,11 @@ export const feedbacks = [
     feedback: {
       original: {
         language: 'pt-br',
-        value: "From Recognize || Community & Cultural Celebrations || Doing good together/volunteering || Obrigada Manoel, pela sua disponibilidade e dedicação na construção e aplicação da iniciativa de voluntariado do CoderDojo. Seu papel foi fundamental para a evolução do programa. Parabéns!"
+        value: "From Recognize || Community & Cultural Celebrations || Doing good together/volunteering || Obrigada <b>Manoel</b>, pela sua disponibilidade e dedicação na construção e aplicação da iniciativa de voluntariado do CoderDojo. Seu papel foi fundamental para a evolução do programa. Parabéns!"
       },
       translation: {
         language: 'en',
-        value: "From Recognize || Community & Cultural Celebrations || Doing good together/volunteering || Thank you, Manoel, for your availability and dedication in building and applying the CoderDojo volunteering initiative. Your role was fundamental to the program's evolution. Congratulations!"
+        value: "From Recognize || Community & Cultural Celebrations || Doing good together/volunteering || Thank you, <b>Manoel</b>, for your availability and dedication in building and applying the CoderDojo volunteering initiative. Your role was fundamental to the program's evolution. Congratulations!"
       }
     }
   }
