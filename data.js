@@ -1,7 +1,30 @@
 export const feedbacks = [
   {
     date: '2025/03/04',
-    name: "Y. R.",
+    name: "Mosxd M.",
+    role: "Sr Transformation Excellence Executive",
+    feedback: {
+      original: {
+        language: 'en',
+        value: `Awesome work everyone; amazing achievement!
+          <br/><br/>
+          Appreciate all your hard work to make sure that the client sees the talent and recognizes the outcome when they partner with us to solve their business problem. 
+          <br/><br/>
+          Thank you team`
+      },
+      translation: {
+        language: 'pt-br',
+        value: `Excelente trabalho, time; uma conquista incrível!
+          <br/><br/>
+          Agradeço todo o esforço dedicado para garantir que o cliente reconheça o talento e valorize os resultados ao escolher nossa parceria para resolver seus desafios de negócios.
+          <br/><br/>
+          Obrigado, time!`
+      }
+    }
+  },
+  {
+    date: '2025/03/04',
+    name: "Yajul R.",
     role: "Management Consulting Principal Director",
     feedback: {
       original: {
