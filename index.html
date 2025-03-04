@@ -150,9 +150,23 @@
                     const feedbackCard = document.createElement('div');
                     feedbackCard.className = 'feedback-card';
 
-                    const nameElement = document.createElement('h3');
+                    const headerDiv = document.createElement('div');
+                    headerDiv.className = 'header';
+
+                    const nameElement = document.createElement('div');
+                    nameElement.className = 'name';
                     nameElement.innerHTML = obscureName(feedback.name);
-                    feedbackCard.appendChild(nameElement);
+                    
+                    headerDiv.appendChild(nameElement);
+
+                    if(feedback.role) {
+                        const roleElement = document.createElement('span');
+                        roleElement.className = 'role';
+                        roleElement.innerHTML = `(${feedback.role})`;
+                        headerDiv.appendChild(roleElement)
+                    }
+
+                    feedbackCard.appendChild(headerDiv);
 
                     // Obtemos o texto do feedback baseado na linguagem atual
                     const feedbackText = getFeedbackText(feedback);

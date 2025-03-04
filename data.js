@@ -1,5 +1,89 @@
 export const feedbacks = [
   {
+    date: '2025/03/03',
+    name: "Y. R.",
+    role: "Management Consulting Principal Director",
+    feedback: {
+      original: {
+        language: 'en',
+        value: `CAPXZXPCAS EXXXX Team - My sincere thanks for all your dedication, commitment, and long hours to make this project a success!
+          <br/><br/>
+          Client notes as these shows what differentiate us from our competitors and that is all because of what you’ll on your day-to-day delivery work.
+          <br/><br/>
+          This project was key (FIRST CAPXZXPCAS initiative) to continue growing our CAPXZXPCA business at ASCAC2ZZX and you all have set high standards...
+          <br/><br/>
+          Congrats! 😉`
+      },
+      translation: {
+        language: 'pt-br',
+        value: `Equipe CAPXZXPCAS EXXXX – Meu sincero agradecimento por toda a sua dedicação, compromisso e longas horas de trabalho para tornar este projeto um sucesso!
+          <br/><br/>
+          Os feedbacks dos clientes, como estes, demonstram o que nos diferencia dos concorrentes, e isso é resultado do excelente trabalho que vocês realizam no dia a dia.
+          <br/><br/>
+          Este projeto foi fundamental (a primeira iniciativa CAPXZXPCAS) para a continuidade do crescimento de nosso negócio CAPXZXPCA na ASCAC2ZZX, e vocês estabeleceram padrões elevados...
+          <br/><br/>
+          Parabéns! 😉`
+      }
+    }
+  },
+  {
+    date: '2025/03/03',
+    name: "M. Garcia",
+    role: "Portfolio Mgmt & Proj Controls Mgr - Client Side",
+    feedback: {
+      original: {
+        language: 'en',
+        value: `Esteemed EMPRESAX Team,
+          <br/><br/>
+          I’m so proud of my team and all the work they put into this application ensuring we made the application the best it could be. I appreciate everyone working through all my questions and being open to tough conversations. All your hard work and dedication is why this project is a success!
+          <br/><br/>
+          EMPRESAX thank you for challenging us and keeping us on track. These type of projects with a blank slate have endless possibilities and I love the collaboration and openness you all bring to the project. 
+          <br/><br/>
+          Thanks for keeping it fun and light throughout.`
+      },
+      translation: {
+        language: 'pt-br',
+        value: `Estimada Equipe da EMPRESAX,
+          <br/><br/>
+          Tenho muito orgulho da minha equipe e de todo o esforço que dedicaram a esta aplicação, garantindo que ela fosse a melhor possível. Sou grata por todos terem se dedicado a responder minhas dúvidas e por estarem abertos a conversas desafiadoras. Todo trabalho árduo e dedicação de vocês são a razão do sucesso deste projeto!
+          <br/><br/>
+          EMPRESAX, obrigada por nos desafiar e por nos manter no caminho certo. Projetos como este, com uma folha em branco, possuem possibilidades infinitas, e eu aprecio a colaboração e a abertura que todos vocês trouxeram para o projeto.
+          <br/><br/>
+          Agradeço também por manterem o ambiente leve e agradável ao longo do processo.`
+      }
+    }
+  },
+  {
+    date: '2025/03/03',
+    name: "Eric C. M.",
+    role: "Project Services & Controls Manager - Client Side",
+    feedback: {
+      original: {
+        language: 'en',
+        value: `Dear EMPRESAX Team,
+          <br/><br/>
+          As we conclude the EXXXX project today, on behalf of the ASCAC2ZZX team, I want to extend my gratitude for your incredible contributions in making this project a success. Reflecting on our journey since last year, it's remarkable to see how far we've come—from completing detailed process mappings and setting ambitious goals to envisioning the potential of our new WOKAPPLICATIONX application.
+          This has been a tremendous learning experience for all of us, and the diversity and depth of knowledge your team has showcased have been outstanding. We've navigated countless late-afternoon (and even some night) calls, planning, troubleshooting, developing, testing, and celebrating the milestones we've achieved along the way.
+          <br/><br/>
+          Sincerely, it has been a pleasure to collaborate with all you, and I look forward to crossing paths again on the various engagements you have with ASCAC2ZZX. Thank you once more for all your hard work and dedication.
+          <br/><br/>
+          Best Regards,`
+      },
+      translation: {
+        language: 'pt-br',
+        value: `Prezada Equipe da EMPRESAX,
+          <br/><br/>
+          À medida que concluímos hoje o projeto EXXXX , em nome da equipe ASCAC2ZZX , gostaria de expressar minha sincera gratidão por suas inestimáveis contribuições para o sucesso deste projeto. Ao refletir sobre nossa trajetória desde o ano passado, é notável perceber o quanto avançamos — desde a realização de mapeamentos detalhados de processos e o estabelecimento de metas ambiciosas até a concepção do potencial de nossa nova aplicação WOKAPPLICATIONX .
+          <br/><br/>
+          Esta tem sido uma experiência de aprendizado extraordinária para todos nós, e a diversidade e profundidade do conhecimento demonstrado por sua equipe foram notáveis. Enfrentamos juntos inúmeras reuniões no final da tarde (e até algumas à noite), planejando, solucionando problemas, desenvolvendo, testando e celebrando as conquistas alcançadas ao longo do caminho.
+          <br/><br/>
+          Foi realmente um prazer colaborar com todos vocês, e espero reencontrá-los nos diversos projetos que possuem com a ASCAC2ZZX . Mais uma vez, agradeço por todo o esforço e dedicação.
+          <br/><br/>
+          Atenciosamente,`
+      }
+    }
+  },
+  {
     date: '2024/08/13',
     name: "Anna Guercio",
     feedback: {
@@ -533,5 +617,5 @@ feedbacks.map(obj => {
   sensitiveNamesArr = [...sensitiveNamesArr, ...firstName, ...lastName]
 })
 
-export const sensitiveWords = ['EMPRESAX', 'EMPRESERXER', 'EMPX', 'CLIENTXXD', 'EXXXX', 'OTHERCL', 'WOKAPPLICATIONX'];
+export const sensitiveWords = ['EMPRESAX', 'EMPRESERXER', 'EMPX', 'CLIENTXXD', 'EXXXX', 'OTHERCL', 'WOKAPPLICATIONX', 'ASCACZZX', 'ASCAC1ZZX', 'ASCAC2ZZX', 'CAPXZXPCA', 'CAPXZXPCAS'];
 export const sensitiveNames = [...sensitiveNamesArr];
