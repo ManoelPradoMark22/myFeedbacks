@@ -1,4 +1,19 @@
 export const feedbacks = [
+{
+  date: '2025/03/27',
+  name: "Di37yht Prk3876dyu",
+  role: "Software Engineering Sr Analyst - Backend",
+  feedback: {
+    original: {
+      language: 'pt-br',
+      value: `Manoel, gostaria de agradecer pela parceria nos últimos meses, tanto no projeto EXXXX quanto agora atuando no NNSDF. Estou muito impressionada com o quanto você progrediu nesse último ano. Suas entregas tem sido excepcionais, o que mostra que você já está mais do que pronto para dar o próximo passo na sua carreira. Você consegue se colocar no lugar do usuário e antecipar possíveis problemas com muita facilidade, sempre pensando em todos os detalhes. Isso é fundamental para o sucesso dos projetos e você tem mostrado isso de forma consistente.`
+    },
+    translation: {
+      language: 'en',
+      value: `Manoel, I would like to thank you for the partnership over the past few months, both on the EXXXX project and now working on NNSDF. I am very impressed with how much you have progressed over the past year. Your deliveries have been exceptional, which shows that you are more than ready to take the next step in your career. You are able to put yourself in the user's shoes and anticipate potential problems with great ease, always thinking through every detail. This is essential for the success of projects, and you have consistently demonstrated this.`
+    }
+  }
+},
   {
     date: '2025/03/04',
     name: "Mosxd M.",
@@ -657,5 +672,5 @@ feedbacks.map(obj => {
   sensitiveNamesArr = [...sensitiveNamesArr, ...firstName, ...lastName]
 })
 
-export const sensitiveWords = ['EMPRESAX', 'EMPRESERXER', 'EMPX', 'CLIENTXXD', 'EXXXX', 'OTHERCL', 'WOKAPPLICATIONX', 'ASCACZZX', 'ASCAC1ZZX', 'ASCAC2ZZX', 'CAPXZXPCA', 'CAPXZXPCAS'];
+export const sensitiveWords = ['EMPRESAX', 'EMPRESERXER', 'EMPX', 'CLIENTXXD', 'EXXXX', 'OTHERCL', 'WOKAPPLICATIONX', 'ASCACZZX', 'ASCAC1ZZX', 'ASCAC2ZZX', 'CAPXZXPCA', 'CAPXZXPCAS', 'NNSDF'];
 export const sensitiveNames = [...sensitiveNamesArr];
